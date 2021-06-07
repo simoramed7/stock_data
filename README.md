@@ -58,13 +58,13 @@ Please note that component has above data-testids for test cases and certain cla
 **Commands**
 - run: 
 ```bash
-bash bin/env_setup && . $HOME/.nvm/nvm.sh && npm start
+bash bin/env_setup && . $HOME/.nvm/nvm.sh && yarn run start
 ```
 - install: 
 ```bash
-bash bin/env_setup && . $HOME/.nvm/nvm.sh && npm install
+bash bin/env_setup && . $HOME/.nvm/nvm.sh && yarn install
 ```
 - test: 
 ```bash
-bash bin/env_setup && . $HOME/.nvm/nvm.sh && npm test
+bash bin/env_setup && . $HOME/.nvm/nvm.sh && yarn run test
 ```
